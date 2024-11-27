@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1229px" height="1212px" viewBox="0 0 1229 1212" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <defs>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#F7F8FB" offset="0%"></stop>
+            <stop stop-color="#EEF0FB" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="v2" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="centered" transform="translate(-57.000000, -1863.000000)" fill="url(#linearGradient-1)" fill-rule="nonzero">
+            <g id="mobile-first" transform="translate(-106.000000, 1707.000000)">
+                <g id="Rectangle">
+                    <path d="M904.165844,193.674917 L1354.53329,637.245714 C1424.4889,706.145603 1424.4889,817.854397 1354.53329,886.754286 L904.165844,1330.32508 C834.21023,1399.22497 720.78977,1399.22497 650.834156,1330.32508 L200.46671,886.754286 C130.511097,817.854397 130.511097,706.145603 200.46671,637.245714 L650.834156,193.674917 C720.78977,124.775028 834.21023,124.775028 904.165844,193.674917 Z" transform="translate(777.500000, 762.000000) rotate(15.000000) translate(-777.500000, -762.000000) "></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="30px" height="30px" viewBox="0 0 30 30" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <g id="v2" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="centered" transform="translate(-1035.000000, -8313.000000)" fill="#FFFFFF" fill-rule="nonzero">
+            <g id="footer---desktop" transform="translate(0.000000, 7362.000000)">
+                <g id="facebook" transform="translate(1035.000000, 951.000000)">
+                    <rect id="Rectangle" opacity="0.245256696" x="0" y="0" width="30" height="30" rx="4"></rect>
+                    <g id="icon---facebook" transform="translate(4.090909, 4.090909)">
+                        <path d="M12.5074847,19.6363636 L12.5074847,11.8126978 L15.2176093,11.8126978 L15.6218113,8.66160896 L12.5075863,8.66160896 L12.5075863,6.65448392 C12.5075863,5.7426721 12.760492,5.12305321 14.0647496,5.12305321 L15.7320574,5.12305321 L15.7320574,2.30373416 C15.442674,2.26917682 14.4550311,2.18181818 13.3067439,2.18181818 C10.9046988,2.18181818 9.26015153,3.64789884 9.26015153,6.34472274 L9.26015153,8.66160896 L6.54545455,8.66160896 L6.54545455,11.8126978 L9.26004992,11.8126978 L9.26004992,19.6363636 L12.5074847,19.6363636 L12.5074847,19.6363636 L12.5074847,19.6363636 Z"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

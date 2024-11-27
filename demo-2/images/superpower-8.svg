@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="60px" height="60px" viewBox="0 0 60 60" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 60.1 (88133) - https://sketch.com -->
+    <title>Group 7</title>
+    <desc>Created with Sketch.</desc>
+    <g id="superpowers" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g transform="translate(-870.000000, -334.000000)" fill="#5C6AC4" fill-rule="nonzero" id="superpower-card">
+            <g transform="translate(740.000000, 291.000000)">
+                <g id="Group-7" transform="translate(130.000000, 43.000000)">
+                    <circle id="Oval" opacity="0.15077008" cx="30" cy="30" r="30"></circle>
+                    <g id="icon---full-screen" transform="translate(13.000000, 13.000000)">
+                        <path d="M5.1,20.5259259 L7.74444444,20.5259259 L7.74444444,26.2555556 L13.4723111,26.2555556 L13.4723111,28.9 L6.42222222,28.9 C5.69197905,28.9 5.1,28.3080209 5.1,27.5777778 L5.1,20.5259259 Z M28.9,20.5259259 L28.9,27.5777778 C28.9,28.3080209 28.3080209,28.9 27.5777778,28.9 L20.5259259,28.9 L20.5259259,26.2555556 L26.2555556,26.2555556 L26.2555556,20.5259259 L28.9,20.5259259 Z M28.9,6.42222222 L28.9,13.4740741 L26.2555556,13.4740741 L26.2555556,7.74444444 L20.5259259,7.74444444 L20.5259259,5.1 L27.5777778,5.1 C28.3080209,5.1 28.9,5.69197905 28.9,6.42222222 Z M13.4740741,5.1 L13.4740741,7.74444444 L7.74444444,7.74444444 L7.74444444,13.4740741 L5.1,13.4740741 L5.1,6.42222222 C5.1,5.69197905 5.69197905,5.1 6.42222222,5.1 L13.4740741,5.1 Z"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

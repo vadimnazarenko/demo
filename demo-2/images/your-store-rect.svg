@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="307px" height="307px" viewBox="0 0 307 307" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <defs>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#E9ECF4" offset="0%"></stop>
+            <stop stop-color="#DBE0F6" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="v2" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" opacity="0.179442">
+        <g id="centered" transform="translate(-644.000000, -4564.000000)" fill="url(#linearGradient-1)" fill-rule="nonzero">
+            <g id="features" transform="translate(-370.000000, 4274.000000)">
+                <g id="Rectangle">
+                    <path d="M1198.38675,302.793709 L1308.20629,412.613253 C1325.26457,429.671532 1325.26457,457.328468 1308.20629,474.386747 L1198.38675,584.206291 C1181.32847,601.26457 1153.67153,601.26457 1136.61325,584.206291 L1026.79371,474.386747 C1009.73543,457.328468 1009.73543,429.671532 1026.79371,412.613253 L1136.61325,302.793709 C1153.67153,285.73543 1181.32847,285.73543 1198.38675,302.793709 Z"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

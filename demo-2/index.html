@@ -1,0 +1,1212 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Providence</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700&display=swap" rel="stylesheet">
+</head>
+<body>
+	<header>
+		<div class="container">
+			<div class="head-nav">
+				<div class="head-nav-logo">
+					<a href="#">
+						<img src="./images/logo.svg">
+					</a>
+				</div>
+				<div class="head-nav-links">
+					<div class="head-nav-mobile-btn">
+						<div class="hamburger">
+							<div class="hamburger-box">
+								<div class="hamburger-inner"></div>
+							</div>
+						</div>
+					</div>
+					<div class="head-nav-mobile-content">
+						<div class="one-head-nav">
+							<a href="https://skup.net/free-trial">Products</a>
+							<span class="menu_open_icon" id="open-icon-product"></span>
+							<div class="head-products">
+								<a class="one-footer-links footer-link-express" target="_blank" href="https://apps.shopify.com/smar7-express">
+									Express
+								</a>
+								<a class="one-footer-links footer-link-bundle" target="_blank" href="https://apps.shopify.com/smar7-bundle-upsell">
+									Bundle
+								</a>
+								<a class="one-footer-links footer-link-scarcity" target="_blank" href="https://apps.shopify.com/smar7-scarcity-timer">
+									Scarcity
+								</a>
+								<a class="one-footer-links footer-link-cookie" target="_blank" href="https://cookie.io">
+									Cookie.io
+								</a>
+								<a class="one-footer-links footer-link-providence" target="_blank" href="https://themes.shopify.com/themes/providence/styles/seaside">
+									Providence
+								</a>
+							</div>
+						</div>
+						<div class="one-head-nav">
+							<a href="https://skup.net/about/">About Us</a>
+						</div>
+						<div class="one-head-nav">
+							<a href="https://skup.net/blog/">Blog</a>
+							<span class="menu_open_icon" id="open-icon-blog"></span>
+							<div class="head-blog">
+							    <div class="top-nav-search">
+							        <form role="search" method="get" class="search-form mobile " action="https://skup.net/">
+							            <input type="text" value="" name="s" placeholder="Search" class="search-input-header">
+							        </form>
+							    </div>
+							    <div class="fixed-nav-trendings">
+							        <div>
+							            <svg width="15px" height="20px" viewBox="0 0 15 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+							                <g id="Symbols" stroke="none" stroke-width="1" fill-rule="evenodd">
+							                    <g id="blog-navigation" transform="translate(-650.000000, -10.000000)">
+							                        <g id="icon---trending" transform="translate(650.000000, 10.000000)">
+							                            <path d="M8.87526918,0.15446031 C8.87526918,0.15446031 7.49182829,1.23033935 6.43198661,2.89308749 C5.37214493,4.55583562 4.60513518,6.97552773 6.02053058,9.35107609 C6.65488637,10.4148835 6.56442338,11.1278265 6.29624869,11.5804786 C6.02807399,12.0331307 5.51758358,12.2639925 5.0421027,12.2054913 C4.59392142,12.1504545 4.1891618,12.0048015 3.83884938,11.5386278 C3.48851523,11.072454 3.17570991,10.2032434 3.20399407,8.63535438 C3.20803929,8.39889131 3.09321604,8.17577872 2.89733466,8.03948576 C2.70145328,7.9031928 2.44990506,7.87138654 2.22552275,7.95454052 C2.22552275,7.95454052 1.57841845,8.21293149 1.03638617,8.88370229 C0.494375605,9.5544588 0,10.6622385 0,12.3212723 C0,16.5792875 3.34096268,20 7.67226923,20 C10.48237,20 12.8739635,18.5033981 14.2018062,16.3462113 C14.6205015,15.6662546 14.9184879,14.7003207 14.9865523,13.5992268 C15.0546023,12.498133 14.875088,11.2610364 14.2018062,10.1644426 C13.5568882,9.11334982 12.7644321,8.47762259 12.0667754,7.86525299 C11.3691114,7.25294052 10.7499365,6.66665716 10.2159617,5.61770723 C9.28534248,3.7900986 10.022251,0.909182816 10.022251,0.909182816 C10.0859237,0.687532169 10.0373515,0.449187501 9.89179812,0.269047495 C9.74624472,0.0889074885 9.52157765,-0.0109145276 9.28839749,0.000950042263 C9.13768511,0.00852654915 8.99335961,0.0621714093 8.87526918,0.15446031 Z M8.43371439,6.52522839 C9.02805893,7.69276958 9.64577995,8.40148373 10.7475022,9.36842238 C11.1728928,9.73748771 11.3587465,9.90054971 11.5447386,10.0753762 C11.9539413,10.460013 12.2483303,10.8049292 12.4971095,11.2103917 C12.8816315,11.836674 13.0432669,12.619804 12.9903609,13.4758619 C12.9438766,14.227846 12.7517303,14.886756 12.4987808,15.2975433 C11.4740303,16.9623326 9.67665862,18 7.67226923,18 C4.4963065,18 2.0320577,15.5371665 2.00031028,12.3829676 C2.0749811,12.5078329 2.15488195,12.6268977 2.24000878,12.7401721 C2.90848268,13.6297352 3.76803112,14.0640584 4.79833306,14.1905798 C6.07174899,14.3472557 7.34862294,13.7279531 8.01693773,12.5999045 C8.74610986,11.3691349 8.65091476,9.85718261 7.7383088,8.3267529 C7.03457685,7.14563447 7.11410698,5.82578733 7.82317725,4.47586191 C7.9217383,5.21563473 8.11663996,5.90253762 8.43371439,6.52522839 Z"></path>
+							                        </g>
+							                    </g>
+							                </g>
+							            </svg>
+							            <div class="trending-tags-title"> Trending Tags</div>
+							        </div>
+							        <a href="https://skup.net/blog/tag/print-on-demand/" class="one-trading-tag">Print On Demand</a>
+							        <a href="https://skup.net/blog/tag/holiday-preparation/" class="one-trading-tag">Holiday Preparation</a>
+							        <a href="https://skup.net/blog/tag/design-ideas/" class="one-trading-tag">Design Ideas</a>
+							    </div>
+							</div>
+						</div>
+						<div class="one-head-nav">
+							<a href="https://skup.net/support/" class="support-btn">Support</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="container container-2">
+			<div class="head-title">
+				Providence Shopify Theme
+			</div>
+			<div class="head-desc">
+				A clean, no-distraction Shopify Theme, focused on conversions.
+			</div>
+			<div class="head-buttons">
+				<a onclick="clickFirstFbq(event, 'https://themes.shopify.com/themes/providence/styles/thunderbolt/download')" href="https://themes.shopify.com/themes/providence/styles/thunderbolt/download" target="_blank" class="get-providence-btn">
+					Get Providence
+				</a>
+				<a onclick="clickFirstFbq(event, 'https://themes.shopify.com/themes/providence/styles/thunderbolt/demo')" href="https://themes.shopify.com/themes/providence/styles/thunderbolt/demo" target="_blank" class="try-demo-btn">
+					Try Demo
+				</a>
+			</div>
+			<div class="head-images">
+				<div class="one-theme-parent">
+					<div class="one-theme-child">
+						<label class="one-theme">
+							<input type="radio" checked name="theme-head" value="thunderbolt">
+							<div class="one-theme-inner">
+								Thunderbolt
+							</div>
+						</label>
+						<label class="one-theme">
+							<input type="radio" name="theme-head" value="seaside">
+							<div class="one-theme-inner">
+								Seaside
+							</div>
+						</label>
+						<label class="one-theme">
+							<input type="radio" name="theme-head" value="birch">
+							<div class="one-theme-inner">
+								Birch
+							</div>
+						</label>
+					</div>
+				</div>
+				<div class="head-desktop-parent">
+					<img class="head-desktop-img" src="./images/themes/thunderbolt-desktop-home.jpg" srcset="./images/themes/thunderbolt-desktop-home.jpg 1x, ./images/themes/thunderbolt-desktop-home@2x.jpg 2x">
+				</div>
+				<div class="head-mobile-parent">
+					<img class="head-mobile-img" src="./images/themes/thunderbolt-mobile-home.jpg" srcset="./images/themes/thunderbolt-mobile-home.jpg 1x, ./images/themes/thunderbolt-mobile-home@2x.jpg 2x">
+				</div>
+			</div>
+		</div>
+	</header>
+
+	<section id="ready-to-empower">
+		<div class="container">
+			<div class="ready-to-empower-container">
+				<img class="ready-to-empower-img" src="./images/ready-to-empower.svg">
+				<div class="ready-to-empower-right">
+					<div class="ready-to-empower-title">
+						Ready to empower your brand?
+					</div>
+					<div class="ready-to-empower-desc">
+						Since early 2013 Providence theme has been trusted by over 6,500 Shopify stores to help increase their store’s conversions, speed up load times and provide delightful customer experiences.
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section id="superpowers">
+		<div class="superpowers-title">
+			The superpowers you gain with providence
+		</div>
+		<div class="superpowers-desc">
+			Hover Over A Superpower To Learn More
+		</div>
+		<div class="slider">
+			<div class="slide-track">
+				<div class="slide">
+					<div class="slide-inner">
+						<img src="./images/superpower-1.svg">
+						<div class="slide-title">
+							Built for large inventories
+						</div>
+						<div class="slide-desc">
+							Ideal for stores with a large number of products
+						</div>
+					</div>
+				</div>
+				<div class="slide">
+					<div class="slide-inner">
+						<img src="./images/superpower-2.svg">
+						<div class="slide-title">
+							Built for medium inventories
+						</div>
+						<div class="slide-desc">
+							Ideal for stores with medium sized catalogs
+						</div>
+					</div>
+				</div>
+				<div class="slide">
+					<div class="slide-inner">
+						<img src="./images/superpower-3.svg">
+						<div class="slide-title">
+							Collection gallery
+						</div>
+						<div class="slide-desc">
+							Promote a collection with a dedicated image gallery
+						</div>
+					</div>
+				</div>
+				<div class="slide">
+					<div class="slide-inner">
+						<img src="./images/superpower-4.svg">
+						<div class="slide-title">
+							Collection page sidebar
+						</div>
+						<div class="slide-desc">
+							Share collection specific details in a dedicated sidebar
+						</div>
+					</div>
+				</div>
+				<div class="slide">
+					<div class="slide-inner">
+						<img src="./images/superpower-5.svg">
+						<div class="slide-title">
+							Custom modules
+						</div>
+						<div class="slide-desc">
+							Share promotions, FAQs or blog posts on your home page
+						</div>
+					</div>
+				</div>
+				<div class="slide">
+					<div class="slide-inner">
+						<img src="./images/superpower-19.svg">
+						<div class="slide-title">
+							Custom sidebar
+						</div>
+						<div class="slide-desc">
+							Customize your sidebar menu to feature collection specific details
+						</div>
+					</div>
+				</div>
+				<div class="slide">
+					<div class="slide-inner">
+						<img src="./images/superpower-6.svg">
+						<div class="slide-title">
+							Featured collections
+						</div>
+						<div class="slide-desc">
+							Display multiple featured collections on your home page
+						</div>
+					</div>
+				</div>
+				<div class="slide">
+					<div class="slide-inner">
+						<img src="./images/superpower-7.svg">
+						<div class="slide-title">
+							Fixed navigation
+						</div>
+						<div class="slide-desc">
+							Give customers access to your menu, logo and cart at all times.
+						</div>
+					</div>
+				</div>
+				<div class="slide">
+					<div class="slide-inner">
+						<img src="./images/superpower-8.svg">
+						<div class="slide-title">
+							Full width images
+						</div>
+						<div class="slide-desc">
+							Big bold images to showcase products.
+						</div>
+					</div>
+				</div>
+				<div class="slide">
+					<div class="slide-inner">
+						<img src="./images/superpower-9.svg">
+						<div class="slide-title">
+							Full width video
+						</div>
+						<div class="slide-desc">
+							Tell your story with a full width video, front and center
+						</div>
+					</div>
+				</div>
+				<div class="slide">
+					<div class="slide-inner">
+						<img src="./images/superpower-10.svg">
+						<div class="slide-title">
+							Promotional banners
+						</div>
+						<div class="slide-desc">
+							Promote your latest sale, promotion or discount
+						</div>
+					</div>
+				</div>
+				<div class="slide">
+					<div class="slide-inner">
+						<img src="./images/superpower-20.svg">
+						<div class="slide-title">
+							Quick buy
+						</div>
+						<div class="slide-desc">
+							Allow customers to add to their cart without leaving the page
+						</div>
+					</div>
+				</div>
+				<div class="slide">
+					<div class="slide-inner">
+						<img src="./images/superpower-11.svg">
+						<div class="slide-title">
+							Related products
+						</div>
+						<div class="slide-desc">
+							Display related products seamlessly
+						</div>
+					</div>
+				</div>
+				<div class="slide">
+					<div class="slide-inner">
+						<img src="./images/superpower-12.svg">
+						<div class="slide-title">
+							Search focused
+						</div>
+						<div class="slide-desc">
+							Customers can easily search for products, tags and anything else
+						</div>
+					</div>
+				</div>
+				<div class="slide">
+					<div class="slide-inner">
+						<img src="./images/superpower-13.svg">
+						<div class="slide-title">
+							Single featured product
+						</div>
+						<div class="slide-desc">
+							Promote a single product front and center
+						</div>
+					</div>
+				</div>
+				<div class="slide">
+					<div class="slide-inner">
+						<img src="./images/superpower-14.svg">
+						<div class="slide-title">
+							Slideshows
+						</div>
+						<div class="slide-desc">
+							Showcase multiple products or brand images
+						</div>
+					</div>
+				</div>
+				<div class="slide">
+					<div class="slide-inner">
+						<img src="./images/superpower-15.svg">
+						<div class="slide-title">
+							Social sharing
+						</div>
+						<div class="slide-desc">
+							Encourage sharing of stories, products and more
+						</div>
+					</div>
+				</div>
+				<div class="slide">
+					<div class="slide-inner">
+						<img src="./images/superpower-21.svg">
+						<div class="slide-title">
+							Multiple blogs
+						</div>
+						<div class="slide-desc">
+							Share your brands story and the latest news on multiple blogs
+						</div>
+					</div>
+				</div>
+				<div class="slide">
+					<div class="slide-inner">
+						<img src="./images/superpower-16.svg">
+						<div class="slide-title">
+							Twitter feed
+						</div>
+						<div class="slide-desc">
+							Share your latest tweets with customers and followers
+						</div>
+					</div>
+				</div>
+				<div class="slide">
+					<div class="slide-inner">
+						<img src="./images/superpower-17.svg">
+						<div class="slide-title">
+							Wide layout
+						</div>
+						<div class="slide-desc">
+							Make the most of awesome product photograhpy
+						</div>
+					</div>
+				</div>
+				<div class="slide">
+					<div class="slide-inner">
+						<img src="./images/superpower-18.svg">
+						<div class="slide-title">
+							Blog widgets
+						</div>
+						<div class="slide-desc">
+							Versatile widgets to use in your blogs sidebar
+						</div>
+					</div>
+				</div>
+
+				<div class="slide">
+					<div class="slide-inner">
+						<img src="./images/superpower-1.svg">
+						<div class="slide-title">
+							Built for large inventories
+						</div>
+						<div class="slide-desc">
+							Ideal for stores with a large number of products
+						</div>
+					</div>
+				</div>
+				<div class="slide">
+					<div class="slide-inner">
+						<img src="./images/superpower-2.svg">
+						<div class="slide-title">
+							Built for medium inventories
+						</div>
+						<div class="slide-desc">
+							Ideal for stores with medium sized catalogs
+						</div>
+					</div>
+				</div>
+				<div class="slide">
+					<div class="slide-inner">
+						<img src="./images/superpower-3.svg">
+						<div class="slide-title">
+							Collection gallery
+						</div>
+						<div class="slide-desc">
+							Promote a collection with a dedicated image gallery
+						</div>
+					</div>
+				</div>
+				<div class="slide">
+					<div class="slide-inner">
+						<img src="./images/superpower-4.svg">
+						<div class="slide-title">
+							Collection page sidebar
+						</div>
+						<div class="slide-desc">
+							Share collection specific details in a dedicated sidebar
+						</div>
+					</div>
+				</div>
+				<div class="slide">
+					<div class="slide-inner">
+						<img src="./images/superpower-5.svg">
+						<div class="slide-title">
+							Custom modules
+						</div>
+						<div class="slide-desc">
+							Share promotions, FAQs or blog posts on your home page
+						</div>
+					</div>
+				</div>
+				<div class="slide">
+					<div class="slide-inner">
+						<img src="./images/superpower-19.svg">
+						<div class="slide-title">
+							Custom sidebar
+						</div>
+						<div class="slide-desc">
+							Customize your sidebar menu to feature collection specific details
+						</div>
+					</div>
+				</div>
+				<div class="slide">
+					<div class="slide-inner">
+						<img src="./images/superpower-6.svg">
+						<div class="slide-title">
+							Featured collections
+						</div>
+						<div class="slide-desc">
+							Display multiple featured collections on your home page
+						</div>
+					</div>
+				</div>
+				<div class="slide">
+					<div class="slide-inner">
+						<img src="./images/superpower-7.svg">
+						<div class="slide-title">
+							Fixed navigation
+						</div>
+						<div class="slide-desc">
+							Give customers access to your menu, logo and cart at all times.
+						</div>
+					</div>
+				</div>
+				<div class="slide">
+					<div class="slide-inner">
+						<img src="./images/superpower-8.svg">
+						<div class="slide-title">
+							Full width images
+						</div>
+						<div class="slide-desc">
+							Big bold images to showcase products.
+						</div>
+					</div>
+				</div>
+				<div class="slide">
+					<div class="slide-inner">
+						<img src="./images/superpower-9.svg">
+						<div class="slide-title">
+							Full width video
+						</div>
+						<div class="slide-desc">
+							Tell your story with a full width video, front and center
+						</div>
+					</div>
+				</div>
+				<div class="slide">
+					<div class="slide-inner">
+						<img src="./images/superpower-10.svg">
+						<div class="slide-title">
+							Promotional banners
+						</div>
+						<div class="slide-desc">
+							Promote your latest sale, promotion or discount
+						</div>
+					</div>
+				</div>
+				<div class="slide">
+					<div class="slide-inner">
+						<img src="./images/superpower-20.svg">
+						<div class="slide-title">
+							Quick buy
+						</div>
+						<div class="slide-desc">
+							Allow customers to add to their cart without leaving the page
+						</div>
+					</div>
+				</div>
+				<div class="slide">
+					<div class="slide-inner">
+						<img src="./images/superpower-11.svg">
+						<div class="slide-title">
+							Related products
+						</div>
+						<div class="slide-desc">
+							Display related products seamlessly
+						</div>
+					</div>
+				</div>
+				<div class="slide">
+					<div class="slide-inner">
+						<img src="./images/superpower-12.svg">
+						<div class="slide-title">
+							Search focused
+						</div>
+						<div class="slide-desc">
+							Customers can easily search for products, tags and anything else
+						</div>
+					</div>
+				</div>
+				<div class="slide">
+					<div class="slide-inner">
+						<img src="./images/superpower-13.svg">
+						<div class="slide-title">
+							Single featured product
+						</div>
+						<div class="slide-desc">
+							Promote a single product front and center
+						</div>
+					</div>
+				</div>
+				<div class="slide">
+					<div class="slide-inner">
+						<img src="./images/superpower-14.svg">
+						<div class="slide-title">
+							Slideshows
+						</div>
+						<div class="slide-desc">
+							Showcase multiple products or brand images
+						</div>
+					</div>
+				</div>
+				<div class="slide">
+					<div class="slide-inner">
+						<img src="./images/superpower-15.svg">
+						<div class="slide-title">
+							Social sharing
+						</div>
+						<div class="slide-desc">
+							Encourage sharing of stories, products and more
+						</div>
+					</div>
+				</div>
+				<div class="slide">
+					<div class="slide-inner">
+						<img src="./images/superpower-21.svg">
+						<div class="slide-title">
+							Multiple blogs
+						</div>
+						<div class="slide-desc">
+							Share your brands story and the latest news on multiple blogs
+						</div>
+					</div>
+				</div>
+				<div class="slide">
+					<div class="slide-inner">
+						<img src="./images/superpower-16.svg">
+						<div class="slide-title">
+							Twitter feed
+						</div>
+						<div class="slide-desc">
+							Share your latest tweets with customers and followers
+						</div>
+					</div>
+				</div>
+				<div class="slide">
+					<div class="slide-inner">
+						<img src="./images/superpower-17.svg">
+						<div class="slide-title">
+							Wide layout
+						</div>
+						<div class="slide-desc">
+							Make the most of awesome product photograhpy
+						</div>
+					</div>
+				</div>
+				<div class="slide">
+					<div class="slide-inner">
+						<img src="./images/superpower-18.svg">
+						<div class="slide-title">
+							Blog widgets
+						</div>
+						<div class="slide-desc">
+							Versatile widgets to use in your blogs sidebar
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="container">
+			<div class="mobile-first-container">
+				<div class="mobile-first-left">
+					<div class="mobile-first-title">
+						Mobile first for <br>
+						a mobile future
+					</div>
+					<div class="mobile-first-small-title">
+						It's more important than ever to have an astounding mobile shopping experience.
+					</div>
+					<div class="mobile-first-desc">
+						Mobile shopping is the future of eCommerce. Over 45% of all online purchases are currently being made on mobile devices and it’s expected to reach 55% by 2021… 
+						<br><br>
+						Mobile experience is our #1 priority and every update we push is built for mobile first experience so you’re prepared for the future and generate as much revenue as possible.
+					</div>
+				</div>
+				<div class="mobile-first-right">
+					<img class="mobile-first-img" src="./images/mobile-first-phones.png" srcset="./images/mobile-first-phones.png 1x, ./images/mobile-first-phones@2x.png 2x">
+				</div>
+			</div>
+		</div>
+	</section>
+	<section id="three-stunning">
+		<div class="container container-2">
+			<div class="stunning-top-container">
+				<div class="stunning-title">
+					Three stunning styles to match your brand
+				</div>
+				<div class="stunning-desc">
+					With three fully optimized theme styles to choose from you're able to seamlessly apply your branding and brand message to your storefront and pages. Keeping your unique brand vision, while adding laser-fast loading times, built-in upsells, and SEO optimization to the forefront.
+				</div>
+				<div class="choose-a-theme">
+					Choose a theme and page to preview
+				</div>
+				<div class="theme-parent">
+					<div class="one-theme-parent">
+						<div class="one-theme-child">
+							<label class="one-theme">
+								<input type="radio" checked name="theme" value="thunderbolt">
+								<div class="one-theme-inner">
+									Thunderbolt
+								</div>
+							</label>
+							<label class="one-theme">
+								<input type="radio" name="theme" value="seaside">
+								<div class="one-theme-inner">
+									Seaside
+								</div>
+							</label>
+							<label class="one-theme">
+								<input type="radio" name="theme" value="birch">
+								<div class="one-theme-inner">
+									Birch
+								</div>
+							</label>
+						</div>
+					</div>
+					<div class="one-theme-parent">
+						<div class="one-theme-child">
+							<label class="one-theme">
+								<input type="radio" checked name="page" value="home">
+								<div class="one-theme-inner">
+									Home
+								</div>
+							</label>
+							<label class="one-theme">
+								<input type="radio" name="page" value="collection">
+								<div class="one-theme-inner">
+									Collection
+								</div>
+							</label>
+							<label class="one-theme">
+								<input type="radio" name="page" value="product">
+								<div class="one-theme-inner">
+									Product
+								</div>
+							</label>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="stunning-images">
+				<div class="stunning-desktop">
+					<img class="stunning-desktop-img" src="./images/themes/thunderbolt-desktop-home.jpg" srcset="./images/themes/thunderbolt-desktop-home.jpg 1x, ./images/themes/thunderbolt-desktop-home@2x.jpg 2x">
+				</div>
+				<div class="stunning-mobile">
+					<img class="stunning-mobile-img" src="./images/themes/thunderbolt-mobile-home.jpg" srcset="./images/themes/thunderbolt-mobile-home.jpg 1x, ./images/themes/thunderbolt-mobile-home@2x.jpg 2x">
+				</div>
+			</div>
+		</div>
+	</section>
+	<section id="your-store-section">
+		<div class="container">
+			<div class="one-store-row one-store-row-margin">
+				<div class="one-store-left one-text-store">
+					<div class="one-store-title">
+						Your store, <br>
+						always up to date
+					</div>
+					<div class="one-store-desc">
+						This No BS theme is focused on turning your visitors into customers and your customers into brand advocates. With weekly updates and 24/7 support, it's no wonder why thousands of Shopify users choose Providence over all others.
+					</div>
+				</div>
+				<div class="one-store-right one-store-right-1">
+					<img class="one-store-img" src="./images/your-store-img.jpg" srcset="./images/your-store-img.jpg 1x, ./images/your-store-img@2x.jpg 2x">
+				</div>
+			</div>
+			<div class="one-store-row">
+				<div class="one-store-left">
+					<img src="./images/add-to-basket-img.svg">
+					<div class="add-to-basket-btn">Add to basket</div>
+				</div>
+				<div class="one-store-right one-text-store">
+					<div class="one-store-title">
+						No extras needed
+					</div>
+					<div class="one-store-desc">
+						We provide features like upsells, cross-sells and sticky add to cart buttons with the theme so you can have the highest average order possible WITHOUT having to install multiple apps which rack up your monthly bill while also slowing down your website.
+					</div>
+					<div class="one-store-blue-desc">
+						We provide high AOVs right out of the box.
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section id="reviews-section">
+		<div class="container">
+			<img src="./images/5-star.svg" class="stars-img">
+			<div class="reviews-title">
+				100+ glowing 5-star reviews from store owners like you
+			</div>
+			<div class="rewiews-list">
+				<div class="one-review">
+					<div class="one-review-top">
+						<img src="./images/happy-smile.svg"> HappyStore
+					</div>
+					<div class="one-review-title">
+						Amazing clean-cut theme, resulting in good sales
+					</div>
+					<div class="one-review-desc">
+						“Amazing clean-cut theme, resulting in good sales for my site. The support is incredible, they delivered everything to my satisfaction. Highly recommended theme and support team.”
+					</div>
+				</div>
+
+				<div class="one-review">
+					<div class="one-review-top">
+						<img src="./images/happy-smile.svg"> Alex In Aurora
+					</div>
+					<div class="one-review-title">
+						Our conversion rates have gone up significantly
+					</div>
+					<div class="one-review-desc">
+						“My wife and I LOVE this theme. Great new features that gave our site the "refresh" we were hoping for. Since we've switched to Providence, our conversion rates have gone up significantly. 5 Stars”
+					</div>
+				</div>
+
+				<div class="one-review">
+					<div class="one-review-top">
+						<img src="./images/happy-smile.svg"> Northampton Soap Works
+					</div>
+					<div class="one-review-title">
+						The customer service is outstanding
+					</div>
+					<div class="one-review-desc">
+						“The theme is great and works perfectly. The customer service is outstanding. They addressed an issue without hesitation. Never had this level of customer service before!”
+					</div>
+				</div>
+
+				<div class="one-review">
+					<div class="one-review-top">
+						<img src="./images/happy-smile.svg"> Dillard House Gifts
+					</div>
+					<div class="one-review-title">
+						The support on this theme is fantastic
+					</div>
+					<div class="one-review-desc">
+						“The support on this theme is fantastic! Within a few hours, they were able to fix and do some code changes for me! I've never worked with a theme that was this prompt with their support!”
+					</div>
+				</div>
+
+				<div class="one-review">
+					<div class="one-review-top">
+						<img src="./images/happy-smile.svg"> Redpill Living Inc
+					</div>
+					<div class="one-review-title">
+						Great experience, I am totally satisfied
+					</div>
+					<div class="one-review-desc">
+						“Such a fantastic theme... and their support is the best! Our sold out button was not displaying. I contacted Skup and they got on it right away. Great experience with this theme, I am totally satisfied.”
+					</div>
+				</div>
+
+				<div class="one-review">
+					<div class="one-review-top">
+						<img src="./images/happy-smile.svg"> Miracle Deals Shop
+					</div>
+					<div class="one-review-title">
+						Providence has given me tremendous value!
+					</div>
+					<div class="one-review-desc">
+						Providence has given me tremendous value! Skup is very supportive when it comes to any questions or concerns you may have. I would recommend this theme for anybody starting out.
+					</div>
+				</div>
+			</div>
+			<a href="https://themes.shopify.com/themes/providence/styles/thunderbolt#Reviews" target="_blank" class="more-reviews-btn">More Reviews</a>
+		</div>
+	</section>
+
+	<section id="companies">
+		<div class="companies-title">
+			See the companies using Providence to empower their brand and delight their customers
+		</div>
+		<div class="slider-2">
+			<div class="slide-2-track">
+				<div class="slide-2">
+					<div class="slide-2-inner">
+						<img src="./images/companies-1.jpg" srcset="./images/companies-1.jpg 1x, ./images/companies-1@2x.jpg 2x">
+						<div class="slide-2-buttons">
+							<a href="#" class="visit-site-btn">Visit Site</a>
+						</div>
+					</div>
+				</div>
+				<div class="slide-2">
+					<div class="slide-2-inner">
+						<img src="./images/companies-2.jpg" srcset="./images/companies-2.jpg 1x, ./images/companies-2@2x.jpg 2x">
+						<div class="slide-2-buttons">
+							<a href="#" class="visit-site-btn">Visit Site</a>
+						</div>
+					</div>
+				</div>
+				<div class="slide-2">
+					<div class="slide-2-inner">
+						<img src="./images/companies-3.jpg" srcset="./images/companies-3.jpg 1x, ./images/companies-3@2x.jpg 2x">
+						<div class="slide-2-buttons">
+							<a href="#" class="visit-site-btn">Visit Site</a>
+						</div>
+					</div>
+				</div>
+				<div class="slide-2">
+					<div class="slide-2-inner">
+						<img src="./images/companies-4.jpg" srcset="./images/companies-4.jpg 1x, ./images/companies-4@2x.jpg 2x">
+						<div class="slide-2-buttons">
+							<a href="#" class="visit-site-btn">Visit Site</a>
+						</div>
+					</div>
+				</div>
+
+				<div class="slide-2">
+					<div class="slide-2-inner">
+						<img src="./images/companies-1.jpg" srcset="./images/companies-1.jpg 1x, ./images/companies-1@2x.jpg 2x">
+						<div class="slide-2-buttons">
+							<a href="#" class="visit-site-btn">Visit Site</a>
+						</div>
+					</div>
+				</div>
+				<div class="slide-2">
+					<div class="slide-2-inner">
+						<img src="./images/companies-2.jpg" srcset="./images/companies-2.jpg 1x, ./images/companies-2@2x.jpg 2x">
+						<div class="slide-2-buttons">
+							<a href="#" class="visit-site-btn">Visit Site</a>
+						</div>
+					</div>
+				</div>
+				<div class="slide-2">
+					<div class="slide-2-inner">
+						<img src="./images/companies-3.jpg" srcset="./images/companies-3.jpg 1x, ./images/companies-3@2x.jpg 2x">
+						<div class="slide-2-buttons">
+							<a href="#" class="visit-site-btn">Visit Site</a>
+						</div>
+					</div>
+				</div>
+				<div class="slide-2">
+					<div class="slide-2-inner">
+						<img src="./images/companies-4.jpg" srcset="./images/companies-4.jpg 1x, ./images/companies-4@2x.jpg 2x">
+						<div class="slide-2-buttons">
+							<a href="#" class="visit-site-btn">Visit Site</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section id="providence-section">
+		<div class="container">
+			<div class="providence-title">
+				Providence Shopify Theme
+			</div>
+			<div class="providence-desc">
+				A clean, no-distraction Shopify Theme, focused on conversions.
+			</div>
+			<div class="bottom-buttons">
+				<a onclick="clickFirstFbq(event, 'https://themes.shopify.com/themes/providence/styles/thunderbolt/download')" href="https://themes.shopify.com/themes/providence/styles/thunderbolt/download" target="_blank" class="get-providence-btn">
+					Get Providence
+				</a>
+				<a onclick="clickFirstFbq(event, 'https://themes.shopify.com/themes/providence/styles/thunderbolt/demo')" href="https://themes.shopify.com/themes/providence/styles/thunderbolt/demo" target="_blank" class="try-demo-btn">
+					Try Demo
+				</a>
+			</div>
+		</div>
+	</section>
+
+	<footer>
+		<div class="container">
+			<div class="footer-left">
+				<img src="./images/logo.svg">
+				<div class="footer-title">
+					Everything you need to start, grow <br>
+					and scale your e-commerce business
+				</div>	
+				<div class="footer-desc">
+					We offer tools and training that can transform your $100k Shopify store into a multimillion-dollar business.
+				</div>
+			</div>
+			<div class="footer-center-right">
+				<div class="footer-center">
+					<div class="footer-links-parent">
+						<div class="footer-links-title">
+							Products
+						</div>
+						<a class="one-footer-links footer-link-express" target="_blank" href="https://apps.shopify.com/smar7-express">
+							Express
+						</a>
+						<a class="one-footer-links footer-link-bundle" target="_blank" href="https://apps.shopify.com/smar7-bundle-upsell">
+							Bundle
+						</a>
+						<a class="one-footer-links footer-link-scarcity" target="_blank" href="https://apps.shopify.com/smar7-scarcity-timer">
+							Scarcity
+						</a>
+						<a class="one-footer-links footer-link-cookie" target="_blank" href="https://cookie.io">
+							Cookie.io
+						</a>
+						<a class="one-footer-links footer-link-providence" target="_blank" href="https://themes.shopify.com/themes/providence/styles/seaside">
+							Providence
+						</a>
+					</div>
+				</div>
+				<div class="footer-right">
+					<div class="footer-links-parent">
+						<div class="footer-links-title">
+							Popular
+						</div>
+						<div class="footer-right-desc">
+							<a href="https://skup.net/blog/campaign-budget-optimization/">
+								Campaign Budget Optimization Training
+							</a>
+							<a href="https://skup.net/blog/print-on-demand-holidays/">
+								Print On Demand Holidays
+							</a>
+							<a href="https://skup.net/free-countdown-timer/">
+								Free Countdown Timer For Emails
+							</a>
+						</div>
+					</div>
+				</div>
+				<div class="footer-center">
+					<div class="footer-links-parent">
+						<div class="footer-links-title">
+							Company
+						</div>
+						<a class="one-footer-links" href="https://skup.net/about/" target="_blank">
+							About us
+						</a>
+						<a class="one-footer-links" href="https://skup.net/blog/" target="_blank">
+							Blog
+						</a>
+						<a class="one-footer-links" href="https://skup.net/support/" target="_blank">
+							Support
+						</a>
+					</div>
+				</div>
+				<div class="footer-right">
+					<div class="footer-links-parent">
+						<div class="footer-links-title">
+							Social Media
+						</div>
+						<a class="one-footer-links footer-link-facebook" href="https://www.facebook.com/SkupEcommerce/" target="_blank">
+							Facebook
+						</a>
+						<a class="one-footer-links footer-link-instagram" href="https://www.instagram.com/skup_ecommerce/" target="_blank">
+							Instagram
+						</a>
+					</div>
+				</div>
+			</div>
+			<div class="footer-left">
+				<div class="footer-copy">
+					© Skup. All rights reserved. <br>
+					689 Central Ave. Suite 100-J, Saint Petersburg, Florida, Fl 33701
+				</div>
+				<div class="footer-left-links">
+					<a href="https://skup.net/privacy-policy/" target="_blank">Privacy Policy</a> – <a href="https://skup.net/terms-of-use/" target="_blank">Terms of Use</a> – <a href="https://skup.net/disclaimer/" target="_blank">Disclaimer</a>
+				</div>
+			</div>
+		</div>
+	</footer>
+<script
+  src="https://code.jquery.com/jquery-3.4.1.min.js"
+  crossorigin="anonymous"></script>
+<!-- Hotjar Tracking Code for https://smar7apps.com -->
+<script>
+    (function(h,o,t,j,a,r){
+        h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
+        h._hjSettings={hjid:606067,hjsv:6};
+        a=o.getElementsByTagName('head')[0];
+        r=o.createElement('script');r.async=1;
+        r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
+        a.appendChild(r);
+    })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
+</script>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-75231027-2"></script>
+<script>
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+
+gtag('config', 'UA-75231027-2', { 'optimize_id': 'GTM-N8CVBLR'});
+</script>
+<!-- Facebook Pixel Code -->
+<script>
+  !function(f,b,e,v,n,t,s)
+  {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+  n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+  if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+  n.queue=[];t=b.createElement(e);t.async=!0;
+  t.src=v;s=b.getElementsByTagName(e)[0];
+  s.parentNode.insertBefore(t,s)}(window, document,'script',
+  'https://connect.facebook.net/en_US/fbevents.js');
+  fbq('init', '467156230676299');
+  fbq('track', 'PageView');
+</script>
+<noscript><img height="1" width="1" style="display:none"
+  src="https://www.facebook.com/tr?id=467156230676299&ev=PageView&noscript=1"
+/></noscript>
+<!-- End Facebook Pixel Code -->
+
+<script type="text/javascript">
+		function clickFirstFbq(e, href){
+			e.preventDefault();
+			fbq('track', 'AddToCart');
+			window.open(href,"_blank")
+		};
+
+		$('document').ready(function(){
+			var activeTheme = 'thunderbolt';
+			var activePage = 'home';
+			var activeThemeHead = 'thunderbolt';
+
+			$('.hamburger').on('click', function() {
+		        if ($('.hamburger').hasClass('is-active')) {
+		            $('.hamburger').removeClass('is-active');
+		            $('.head-nav-mobile-content').slideToggle();
+		            $('body').removeClass('noscroll')
+		        } else {
+		            $('.hamburger').addClass('is-active');
+		            $('.head-nav-mobile-content').slideToggle({
+			    		duration: 200, 
+	    				
+			    	});
+		            $('body').addClass('noscroll')
+		        }
+		    });
+
+		    $('#open-icon-product').on('click', function(){
+		    	$('.head-products').slideToggle({
+		    		duration: 200, 
+    				
+		    	});
+		    	if ($('#open-icon-product').hasClass('show')) {
+		            $('#open-icon-product').removeClass('show');
+		        } else {
+		            $('#open-icon-product').addClass('show');
+		        }
+		    })
+
+		    $('#open-icon-blog').on('click', function(){
+		    	$('.head-blog').slideToggle({
+		    		duration: 200, 
+    				
+		    	});
+		    	if ($('#open-icon-blog').hasClass('show')) {
+		            $('#open-icon-blog').removeClass('show');
+		        } else {
+		            $('#open-icon-blog').addClass('show');
+		        }
+		    })
+
+			$('input[name="theme"]').on('change', function(){
+				activeTheme = $(this).val();
+				changeThemePage();
+			});
+
+			$('input[name="page"]').on('change', function(){
+				activePage = $(this).val();
+				changeThemePage();
+			});
+
+			$('input[name="theme-head"]').on('change', function(){
+				activeThemeHead = $(this).val();
+				changeThemeHead();
+			});
+
+			function changeThemeHead(){
+				if (activeThemeHead == 'thunderbolt'){
+					$('.head-desktop-img').attr('src', './images/themes/thunderbolt-desktop-home.jpg');
+					$('.head-desktop-img').attr('srcset', './images/themes/thunderbolt-desktop-home.jpg 1x, ./images/themes/thunderbolt-desktop-home@2x.jpg 2x');
+
+					$('.head-mobile-img').attr('src', './images/themes/thunderbolt-mobile-home.jpg');
+					$('.head-mobile-img').attr('srcset', './images/themes/thunderbolt-mobile-home.jpg 1x, ./images/themes/thunderbolt-mobile-home@2x.jpg 2x');
+				} else if (activeThemeHead == 'seaside'){
+					$('.head-desktop-img').attr('src', './images/themes/seaside-desktop-home.jpg');
+					$('.head-desktop-img').attr('srcset', './images/themes/seaside-desktop-home.jpg 1x, ./images/themes/seaside-desktop-home@2x.jpg 2x');
+
+					$('.head-mobile-img').attr('src', './images/themes/seaside-mobile-home.jpg');
+					$('.head-mobile-img').attr('srcset', './images/themes/seaside-mobile-home.jpg 1x, ./images/themes/seaside-mobile-home@2x.jpg 2x');
+				} else if (activeThemeHead == 'birch'){
+					$('.head-desktop-img').attr('src', './images/themes/birch-desktop-home.jpg');
+					$('.head-desktop-img').attr('srcset', './images/themes/birch-desktop-home.jpg 1x, ./images/themes/birch-desktop-home@2x.jpg 2x');
+
+					$('.head-mobile-img').attr('src', './images/themes/birch-mobile-home.jpg');
+					$('.head-mobile-img').attr('srcset', './images/themes/birch-mobile-home.jpg 1x, ./images/themes/birch-mobile-home@2x.jpg 2x');
+				}
+			}
+
+			function changeThemePage(){
+				if (activeTheme == 'thunderbolt' && activePage == 'home'){
+					$('.stunning-desktop-img').attr('src', './images/themes/thunderbolt-desktop-home.jpg');
+					$('.stunning-desktop-img').attr('srcset', './images/themes/thunderbolt-desktop-home.jpg 1x, ./images/themes/thunderbolt-desktop-home@2x.jpg 2x');
+
+					$('.stunning-mobile-img').attr('src', './images/themes/thunderbolt-mobile-home.jpg');
+					$('.stunning-mobile-img').attr('srcset', './images/themes/thunderbolt-mobile-home.jpg 1x, ./images/themes/thunderbolt-mobile-home@2x.jpg 2x');
+				} else if (activeTheme == 'thunderbolt' && activePage == 'collection'){
+					$('.stunning-desktop-img').attr('src', './images/themes/thunderbolt-desktop-collection.jpg');
+					$('.stunning-desktop-img').attr('srcset', './images/themes/thunderbolt-desktop-collection.jpg 1x, ./images/themes/thunderbolt-desktop-collection@2x.jpg 2x');
+
+					$('.stunning-mobile-img').attr('src', './images/themes/thunderbolt-mobile-collection.jpg');
+					$('.stunning-mobile-img').attr('srcset', './images/themes/thunderbolt-mobile-collection.jpg 1x, ./images/themes/thunderbolt-mobile-collection@2x.jpg 2x');
+				} else if (activeTheme == 'thunderbolt' && activePage == 'product'){
+					$('.stunning-desktop-img').attr('src', './images/themes/thunderbolt-desktop-product.jpg');
+					$('.stunning-desktop-img').attr('srcset', './images/themes/thunderbolt-desktop-product.jpg 1x, ./images/themes/thunderbolt-desktop-product@2x.jpg 2x');
+
+					$('.stunning-mobile-img').attr('src', './images/themes/thunderbolt-mobile-product.jpg');
+					$('.stunning-mobile-img').attr('srcset', './images/themes/thunderbolt-mobile-product.jpg 1x, ./images/themes/thunderbolt-mobile-product@2x.jpg 2x');
+				} else if (activeTheme == 'seaside' && activePage == 'home'){
+					$('.stunning-desktop-img').attr('src', './images/themes/seaside-desktop-home.jpg');
+					$('.stunning-desktop-img').attr('srcset', './images/themes/seaside-desktop-home.jpg 1x, ./images/themes/seaside-desktop-home@2x.jpg 2x');
+
+					$('.stunning-mobile-img').attr('src', './images/themes/seaside-mobile-home.jpg');
+					$('.stunning-mobile-img').attr('srcset', './images/themes/seaside-mobile-home.jpg 1x, ./images/themes/seaside-mobile-home@2x.jpg 2x');
+				} else if (activeTheme == 'seaside' && activePage == 'collection'){
+					$('.stunning-desktop-img').attr('src', './images/themes/seaside-desktop-collection.jpg');
+					$('.stunning-desktop-img').attr('srcset', './images/themes/seaside-desktop-collection.jpg 1x, ./images/themes/seaside-desktop-collection@2x.jpg 2x');
+
+					$('.stunning-mobile-img').attr('src', './images/themes/seaside-mobile-collection.jpg');
+					$('.stunning-mobile-img').attr('srcset', './images/themes/seaside-mobile-collection.jpg 1x, ./images/themes/seaside-mobile-collection@2x.jpg 2x');
+				} else if (activeTheme == 'seaside' && activePage == 'product'){
+					$('.stunning-desktop-img').attr('src', './images/themes/seaside-desktop-product.jpg');
+					$('.stunning-desktop-img').attr('srcset', './images/themes/seaside-desktop-product.jpg 1x, ./images/themes/seaside-desktop-product@2x.jpg 2x');
+
+					$('.stunning-dmobile-img').attr('src', './images/themes/seaside-mobile-product.jpg');
+					$('.stunning-mobile-img').attr('srcset', './images/themes/seaside-mobile-product.jpg 1x, ./images/themes/seaside-mobile-product@2x.jpg 2x');
+				} else if (activeTheme == 'birch' && activePage == 'home'){
+					$('.stunning-desktop-img').attr('src', './images/themes/birch-desktop-home.jpg');
+					$('.stunning-desktop-img').attr('srcset', './images/themes/birch-desktop-home.jpg 1x, ./images/themes/birch-desktop-home@2x.jpg 2x');
+
+					$('.stunning-mobile-img').attr('src', './images/themes/birch-mobile-home.jpg');
+					$('.stunning-mobile-img').attr('srcset', './images/themes/birch-mobile-home.jpg 1x, ./images/themes/birch-mobile-home@2x.jpg 2x');
+				} else if (activeTheme == 'birch' && activePage == 'collection'){
+					$('.stunning-desktop-img').attr('src', './images/themes/birch-desktop-collection.jpg');
+					$('.stunning-desktop-img').attr('srcset', './images/themes/birch-desktop-collection.jpg 1x, ./images/themes/birch-desktop-collection@2x.jpg 2x');
+
+					$('.stunning-mobile-img').attr('src', './images/themes/birch-mobile-collection.jpg');
+					$('.stunning-mobile-img').attr('srcset', './images/themes/birch-mobile-collection.jpg 1x, ./images/themes/birch-mobile-collection@2x.jpg 2x');
+				} else if (activeTheme == 'birch' && activePage == 'product'){
+					$('.stunning-desktop-img').attr('src', './images/themes/birch-desktop-product.jpg');
+					$('.stunning-desktop-img').attr('srcset', './images/themes/birch-desktop-product.jpg 1x, ./images/themes/birch-desktop-product@2x.jpg 2x');
+
+					$('.stunning-mobile-img').attr('src', './images/themes/birch-mobile-product.jpg');
+					$('.stunning-mobile-img').attr('srcset', './images/themes/birch-mobile-product.jpg 1x, ./images/themes/birch-mobile-product@2x.jpg 2x');
+				}
+			}
+		})
+	</script>
+</body>
+</html>
